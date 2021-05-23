@@ -1,0 +1,37 @@
+
+
+.task {
+    background: #f4f4f4;
+    margin: 5px;
+    padding: 10px 20px;
+    cursor:pointer;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  }
+  .task h3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+  }
+  .btn2{
+      cursor: pointer;
+    padding: 5px 10px;
+    margin: 5px;
+    outline: none;
+    border: none;
+    color: red;
+    border-radius: 5px;
+    background-color:#d9bfe4;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transition: background-color 0.2s;
+  }
+  .btn2:hover{
+    background: black;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 20px 20px, rgba(0, 0, 0, 0.23) 0px 12px 6px;
+
+  }
+  .task.reminder {
+    border-left: 5px solid green;
+  }
+  
